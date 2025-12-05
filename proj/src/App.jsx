@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import Acord from './components/accordian'
-
+import Acord from './components/Ghead'
 function App() {
   const [count, setCount] = useState(0)
 
