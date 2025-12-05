@@ -12,3 +12,16 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+#scr{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: large;
+}
+#newg{
+    width:150px;
+    padding: 9px 15px;
+    border-radius: 20px;
+    border: none;
+}
