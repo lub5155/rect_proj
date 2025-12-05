@@ -1,12 +1,14 @@
 body{
-    background-color: rgb(84, 61, 100); ;
+    margin: 0;
+    background-color: rgb(24, 4, 37);
+    height: 100vh;
 }
 #gameTitle{
     background-color: rgb(47, 0, 78);
     color: rgb(220, 220, 220);
     width:500px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     border-radius: 20px;
     border: none;
     margin-left: auto;
@@ -24,4 +26,23 @@ body{
     padding: 9px 15px;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(47, 0, 78);;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);    
+    gap: 5px; 
+    margin: auto; 
+    width: fit-content; 
+    padding: 20px;
+}
+.cardbox{
+    text-align: center;
+    background-color:rgb(108, 71, 132);
+    width:100px;
+    height: 100px;
+    border-radius: 20px;
 }
