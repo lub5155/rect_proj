@@ -1,7 +1,9 @@
 import React from "react";
 function Acord(){
     return <>
-        <h1>hello acord!</h1>
+        <div id="gameTitle">
+        <h1>yes!</h1>
+        </div>
     </>
 }
 export default Acord;
